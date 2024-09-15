@@ -1,9 +1,7 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import am from "../img/2am.jpg"
+import brain from "../img/brain.jpg"
+import food from "../img/foodpoint.jpg"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -18,7 +16,7 @@ the site.
 /* 
 This variable will change the layout of the website from multipage to single, scrollable page
 */
-export let singlePage = false;
+export let singlePage = true;
 
 /*
 So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
@@ -27,66 +25,58 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Harshita",
+    lastName: "Rajoria",
+    initials: "Home", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            // emoji: ''
+            text: ' </> Fueled by coffee'
         },
         {
-            emoji: '🌎',
-            text: 'based in the US'
+            // emoji: '🌎',
+            text: '</> based in the India'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            // emoji: "💼",
+            text: " </> Pre Final Year student at IGTDUW"
         },
         {
-            emoji: "📧",
-            text: "johnsmith@gmail.com"
+            // emoji: "📧",
+            text: " </> harshitarajoria02@gmail.com"
         }
     ],
     socials: [
+        
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://www.instagram.com/theycallme_harshita/",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/HarshiitaaRajoriiaa",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/harshita-rajoria-68110b24a/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Harshita. I'm a student at Indira Gandhi Delhi Technical University.  I enjoy looking at mountains for hours, and I have keen interest in designing and web developing. you should hire me for making you website more beautiful and user friendly",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript',  'git', 'github',  'html5', 'css3', 'figma', 'Java' , 'SQL' , 'Tailwind'],
+            exposedTo: [ 'react' , 'python' , 'R' , ]
         }
     ,
     hobbies: [
@@ -95,12 +85,12 @@ export const info = {
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Dancing',
+            emoji: '💃🏻'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'Travelling',
+            emoji: '✈️'
         },
         {
             label: 'cooking',
@@ -111,34 +101,22 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "2 A.M Thoughts",
+            live: "https://manvi1718.github.io/2AMT/index.html", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/HarshiitaaRajoriiaa/2-A.M-Thoughts?tab=readme-ov-file", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: am
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Brain Tumor Classification",
+            // live: "https://paytonpierce.dev",
+            // source: "https://github.com/paytonjewell",
+            image: brain
         },
         {
-            title: "Project 3",
+            title: "E-commerece website",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            image: food
         }
     ]
 }
