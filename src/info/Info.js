@@ -48,6 +48,10 @@ export const info = {
         {
             // emoji: "📧",
             text: " </> harshitarajoria02@gmail.com"
+        },
+        {
+            // emoji: "📧",
+            text: " </> harshitarajoria02@gmail.com"
         }
     ],
     socials: [
